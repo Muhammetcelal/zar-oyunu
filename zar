@@ -1,0 +1,107 @@
+ Random yy = new Random();
+ int toplam;
+ int toplamm;
+ int toplammm;
+ int toplam2;
+ int toplam3;
+ int toplam4;
+ int toplam5;
+ int toplam6;
+ int kontrol;
+ private void button4_Click(object sender, EventArgs e)
+ {
+     toplam2 = toplam + toplamm + toplammm;
+     listBox4.Items.Add(toplam2);
+ }
+
+ private void button1_Click(object sender, EventArgs e)
+ {
+     int a = yy.Next(0, 7);
+     int b = yy.Next(0, 7);
+     int c = yy.Next(0, 7);
+     label1.Text = a.ToString();
+     label2.Text = b.ToString();
+     label3.Text = c.ToString();
+     toplam = a + b + c;
+     listBox1.Items.Add(toplam);
+     button1.Enabled = false;
+
+
+
+ }
+
+ private void button2_Click(object sender, EventArgs e)
+ {
+     int d = yy.Next(0, 7);
+     int k = yy.Next(0, 7);
+     int f = yy.Next(0, 7);
+     label4.Text = d.ToString();
+     label5.Text = k.ToString();
+     label6.Text = f.ToString();
+     toplamm = d + k + f;
+     listBox2.Items.Add(toplamm);
+     button2.Enabled = false;
+ }
+
+ private void button5_Click(object sender, EventArgs e)
+ {
+
+     int j = yy.Next(0, 7);
+     int l = yy.Next(0, 7);
+     int m = yy.Next(0, 7);
+     label8.Text = j.ToString();
+     label9.Text = l.ToString();
+     label10.Text = m.ToString();
+     toplammm = j + l + m;
+     listBox3.Items.Add(toplammm);
+     button5.Enabled = false;
+ }
+
+ private void button3_Click(object sender, EventArgs e)
+ {
+     toplam6 = toplam3 + toplam4 + toplam5;
+     listBox8.Items.Add(toplam6);
+ }
+
+ private void button8_Click(object sender, EventArgs e)
+ {
+     int t = yy.Next(0, 7);
+     int o = yy.Next(0, 7);
+     int r = yy.Next(0, 7);
+
+     label13.Text = t.ToString();
+     label14.Text = o.ToString();
+     label15.Text = r.ToString();
+     toplam3 = t + o + r;
+     listBox5.Items.Add(toplam3);
+     button8.Enabled = false;
+ }
+
+ private void button7_Click(object sender, EventArgs e)
+ {
+     int p = yy.Next(0, 7);
+     int z = yy.Next(0, 7);
+     int g = yy.Next(0, 7);
+
+     label16.Text = p.ToString();
+     label17.Text = z.ToString();
+     label18.Text = g.ToString();
+     toplam4 = p + z + g;
+     listBox6.Items.Add(toplam4);
+     button8.Enabled = false;
+     button7.Enabled = false;
+ }
+
+ private void button6_Click(object sender, EventArgs e)
+ {
+     int h = yy.Next(0, 7);
+     int s = yy.Next(0, 7);
+     int q = yy.Next(0, 7);
+
+     label7.Text = h.ToString();
+     label11.Text = s.ToString();
+     label12.Text = q.ToString();
+     toplam5 = s + q + h;
+     listBox7.Items.Add(toplam5);
+     button8.Enabled = false;
+ }
